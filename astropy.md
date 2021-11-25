@@ -12,6 +12,9 @@ wcs1 = WCS(hdu[0].header)
 cutout = Cutout2D(hdu[0].data[0], position ,size, wcs = wcs1 )
 ```
 
+
+Source: https://notebook.community/darioflute/CS4A/Lecture-astronomy
+
 ```python
 from astropy.nddata import Cutout2D
 
